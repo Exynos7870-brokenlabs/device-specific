@@ -74,20 +74,6 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     NfcNci \
     Tag
-# Copyright (C) 2018 The LineageOS Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -101,43 +87,12 @@ PRODUCT_PACKAGES += \
    audio_amplifier.universal7870 \
    libtinycompress
 
-#
-# Copyright (C) 2017 The LineageOS Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     fingerprint.exynos5 \
     libbauthtzcommon_shim \
     android.hardware.biometrics.fingerprint@2.1-impl \
     android.hardware.biometrics.fingerprint@2.1-service
-#
-# Copyright (C) 2017 The LineageOS Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
@@ -145,50 +100,11 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 # Boot animation
 TARGET_SCREEN_WIDTH := 720
 TARGET_SCREEN_HEIGHT := 1080
-#
-# Copyright (C) 2018 The LineageOS Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
 
 # Lights
 PRODUCT_PACKAGES += \
     lights.universal7870 \
     android.hardware.light@2.0-impl
-
-# Copyright (C) 2018 The LineageOS Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
-
-# hardware/samsung/AdvancedDisplay (MDNIE)
-#PRODUCT_PACKAGES += \
-#    AdvancedDisplay
-
- 
-#########
-#  NFC #
-#########
  
 # NFC Packages
 PRODUCT_PACKAGES += \
@@ -208,21 +124,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-brcm.conf:system/vendor/etc/libnfc-nci.conf \
     $(LOCAL_PATH)/releasetools/nfc_scripts.sh:install/bin/nfc_scripts.sh \
     $(LOCAL_PATH)/configs/nfc/libnfc-sec-hal.conf.s3nrn81:system/etc/libnfc-sec-hal.conf.s3nrn81
-#
-# Copyright (C) 2018 The LineageOS Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -252,78 +153,17 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/com.sec.feature.cover.nfc_authentication.xml:$system/etc/permissions/com.sec.feature.cover.nfc_authentication.xml \
     $(LOCAL_PATH)/configs/permissions/com.sec.feature.nfc_authentication.xml:$system/etc/permissions/com.sec.feature.nfc_authentication.xml \
 
-# Copyright (C) 2018 The LineageOS Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
-
 PRODUCT_PACKAGES := \
 	Snap
-#
-# Copyright (C) 2018 The LineageOS Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
 
 # Specific Ramdisk Package
   PRODUCT_PACKAGES += \
       init.target.rc
-#
-# Copyright (C) 2018 The LineageOS Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
 
 # NFC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/releasetools/nfc_scripts.sh:install/bin/nfc_scripts.sh
-#
-# Copyright (C) 2017 The LineageOS Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
 
-# Wi-Fi
 # Wi-Fi Ramdisk Package
   PRODUCT_PACKAGES += \
       init.wifi.rc
