@@ -58,23 +58,6 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 # call the common proprietary setup
 $(call inherit-product, vendor/samsung/exynos7870-common/exynos7870-common-vendor.mk)
 
-PRODUCT_PACKAGES += \
-    libtfa98xx \
-    audio_amplifier.universal7870 \
-    libtinycompress \
-    fingerprint.exynos5 \
-    libbauthtzcommon_shim \
-    android.hardware.biometrics.fingerprint@2.1-impl \
-    android.hardware.biometrics.fingerprint@2.1-service \
-    lights.universal7870 \
-    android.hardware.light@2.0-impl \
-    android.hardware.nfc@1.0-impl \
-    libnfc-nci \
-    libnfc_nci_jni \
-    com.android.nfc_extras \
-    NfcNci \
-    Tag
-
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy.conf:system/etc/audio_policy.conf \
